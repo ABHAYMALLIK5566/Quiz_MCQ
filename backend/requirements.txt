@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+passlib
+python-jose[cryptography]
+google-generativeai
+pymupdf
+textract==1.6.5 
+sqlalchemy
+psycopg2-binary
+chardet==3.0.4  
+python-pptx==0.6.21  
+python-docx==0.8.11  
