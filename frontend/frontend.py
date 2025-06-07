@@ -3,7 +3,7 @@ import requests
 import os
 import re
 
-BASE_URL = os.getenv("API_URL", "http://localhost:8000")
+BASE_URL = os.getenv("API_URL", "https://quiz-mcq.onrender.com")
 
 def clean_mcq_output(raw_text: str) -> str:
     # Convert all literal '\n' to real newlines
