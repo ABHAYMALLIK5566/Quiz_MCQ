@@ -67,9 +67,9 @@ def show_main_interface():
         difficulty = st.selectbox("Difficulty Level", ["easy", "medium", "hard"])
         col1, col2 = st.columns(2)
         with col1:
-            start_page = st.number_input("Start Page (PDF only)", min_value=1, value=1)
+            start_page = st.number_input("Start Page", min_value=1, value=1)
         with col2:
-            end_page = st.number_input("End Page (PDF only)", min_value=1, value=1)
+            end_page = st.number_input("End Page", min_value=1, value=1)
     
     if uploaded_file and st.button("Generate MCQs"):
         headers = {"Authorization": f"Bearer {st.session_state.token}"}
